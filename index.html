@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+
+  <body>
+    <div id="app">
+      <body>
+        <div class="carousel">
+          <button class="carousel__button carousel__button--left is-hidden">
+            <img src="./src/assets/images/left.svg" alt="" />
+          </button>
+          <div class="carousel__track-container">
+            <ul class="carousel__track">
+              <li class="carousel__slide current-slide">
+                <div class="slide__content">
+                  <h2 class="slide__title">Slide 1</h2>
+                  <p class="slide__description">
+                    Some words about Slide 1
+                  </p>
+                  <a href="#" class="slide__cta">Learn More about Slide 1</a>
+                </div>
+                <div class="slide__overlay">&nbsp</div>
+                <img
+                  class="carousel__image"
+                  src="./src/assets/images/slide1.jpg"
+                  alt=""
+                />
+              </li>
+              <li class="carousel__slide">
+                <div class="slide__content">
+                  <h2 class="slide__title">Slide 2</h2>
+                  <p class="slide__description">
+                    Some words about Slide 2
+                  </p>
+                  <a href="#" class="slide__cta">Learn More about Slide 2</a>
+                </div>
+                <div class="slide__overlay">&nbsp</div>
+                <img
+                  class="carousel__image"
+                  src="./src/assets/images/slide2.jpg"
+                  alt=""
+                />
+              </li>
+              <li class="carousel__slide">
+                <div class="slide__content">
+                  <h2 class="slide__title">Slide 3</h2>
+                  <p class="slide__description">
+                    Some words about Slide 3
+                  </p>
+                  <a href="#" class="slide__cta">Learn More about Slide 3</a>
+                </div>
+                <div class="slide__overlay">&nbsp</div>
+                <img
+                  class="carousel__image"
+                  src="./src/assets/images/slide3.jpg"
+                  alt=""
+                />
+              </li>
+            </ul>
+          </div>
+          <button class="carousel__button carousel__button--right">
+            <img src="./src/assets/images/right.svg" alt="" />
+          </button>
+
+          <div class="carousel__nav">
+            <button class="carousel__indicator current-slide"></button>
+            <button class="carousel__indicator"></button>
+            <button class="carousel__indicator"></button>
+          </div>
+        </div>
+      </body>
+    </div>
+
+    <script src="src/assets/js/carousel.js"></script>
+  </body>
+</html>
